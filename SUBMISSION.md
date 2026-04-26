@@ -105,7 +105,7 @@ WRAITH covers the complete offensive lifecycle: reconnaissance, code analysis, v
 - Co-founder, CyberTrendz Inc. (Grameenphone Accelerator top 27)
 
 **Contact:**
-- Email: mhasan@huskers.unl.edu
+- Email: mhasan6@nebraska.edu
 - GitHub: github.com/rashedhasan090
 - LinkedIn: linkedin.com/in/rashedhasan090
 

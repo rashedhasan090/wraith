@@ -33,16 +33,6 @@
 
 ---
 
-### Demo Video
-
-<video width="100%" controls>
-  <source src="https://raw.githubusercontent.com/rashedhasan090/wraith/main/demos/wraith_demo_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-
-
 ## What Is WRAITH?
 
 WRAITH is a **multi-agent LLM-powered penetration testing CLI tool** that uses **reinforcement learning** to intelligently explore attack surfaces and discover vulnerabilities. Unlike traditional scanners or simple LLM wrappers, WRAITH's agents *learn* from each scan — adapting their strategy, prioritising high-reward attack vectors, and synthesising multi-step attack chains.
@@ -466,6 +456,6 @@ MIT License — see [LICENSE](../LICENSE)
 ## Contact
 
 - **Author:** Md Rashedul Hasan
-- **Email:** mhasan@huskers.unl.edu
+- **Email:** mhasan6@nebraska.edu
 - **GitHub:** [@rashedhasan090](https://github.com/rashedhasan090)
 - **Affiliation:** University of Nebraska-Lincoln

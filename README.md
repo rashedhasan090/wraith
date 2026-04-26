@@ -19,6 +19,17 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 [![DEF CON 2026](https://img.shields.io/badge/DEF%20CON-2026-red?style=flat-square)](https://defcon.org)
+[![Web App](https://img.shields.io/badge/web-wraith.mdrashedulhasan.me-blueviolet?style=flat-square&logo=google-chrome)](https://wraith.mdrashedulhasan.me/)
+
+---
+
+## 🌐 Try It Now — Web Version
+
+> **No installation needed.** A fully functional web version of WRAITH is live at:
+>
+> ### 👉 [wraith.mdrashedulhasan.me](https://wraith.mdrashedulhasan.me/)
+>
+> Use the web interface to run scans, view reports, and explore the RL dashboard — all from your browser. The CLI below provides the same capabilities for local / offline use.
 
 ---
 
@@ -433,6 +444,14 @@ The framework builds on research at the intersection of:
 ## License
 
 MIT License — see [LICENSE](../LICENSE)
+
+## Links
+
+| Resource | URL |
+|---|---|
+| 🌐 **Web App** | [wraith.mdrashedulhasan.me](https://wraith.mdrashedulhasan.me/) |
+| 📦 **CLI Repo** | [github.com/rashedhasan090/wraith](https://github.com/rashedhasan090/wraith) |
+| 🎬 **Demo Video** | [LinkedIn](https://www.linkedin.com/posts/mdrashedulhasan_wraith-weakness-reasoning-ai-threat-hunter-activity-7322335429753118720-qBvJ) |
 
 ## Contact
 

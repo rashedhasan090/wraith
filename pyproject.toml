@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wraith-cli"
+version = "0.3.0"
+description = "WRAITH — Multi-agent AI-powered penetration testing with reinforcement learning"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Md Rashedul Hasan"}]
+keywords = ["security", "penetration-testing", "ai", "reinforcement-learning", "vulnerability-scanner"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+    "httpx>=0.27",
+    "openai>=1.0",
+    "anthropic>=0.30",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "ruff>=0.4"]
+all = ["flask>=3.0"]  # For running the demo vulnerable app
+
+[project.scripts]
+wraith = "wraith_cli.main:main"
+
+[project.urls]
+Repository = "https://github.com/rashedhasan090/wraith"
+
+[tool.setuptools.packages.find]
+include = ["wraith_cli*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100

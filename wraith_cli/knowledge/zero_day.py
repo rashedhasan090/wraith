@@ -371,7 +371,9 @@ class ZeroDayHypothesisEngine:
             score += 0.2
             items.append({"kind": "technology", "matches": tech_matches})
 
-        lang_matches = sorted({l for l in template.languages if l.lower() in languages})
+        lang_matches = sorted({
+            language for language in template.languages if language.lower() in languages
+        })
         if lang_matches:
             score += 0.12
             items.append({"kind": "language", "matches": lang_matches})
